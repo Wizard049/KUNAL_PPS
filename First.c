@@ -14,11 +14,14 @@ int main(){
     d=a-b;
     e=a*b;
     f=a/b;
-    g= (int)a%(int)b;
+    g=(int)a%(int)b;
 
     printf("\n the sum of a and b is %f",c);
     printf("\n the difference of a and b is %f",d);
     printf("\n the product of a and b is %f",e);
     printf("\n the quotient of a and b is %f",f);
     printf("\n the remainder of a and b is %f",g);
+
+    return 0;
+
 }
